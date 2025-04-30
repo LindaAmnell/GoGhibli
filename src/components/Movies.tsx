@@ -24,7 +24,7 @@ const Movies = () => {
     } catch (error) {
       const e: Error = error as Error;
       console.log("API failed with error: ", e.message);
-      setMessage("Something went wrong. Please try again later. Arrr!");
+      setMessage("Something went wrong. Please try again later");
     }
   };
   useEffect(() => {
@@ -34,6 +34,8 @@ const Movies = () => {
   const filteredMovie: Movie[] = movieList
     .filter((m) => m.title.toLowerCase().includes(searchFilter.toLowerCase()))
     .sort((a, b) => -parseInt(b.release_date) - parseInt(a.release_date));
+
+  console.log(filteredMovie);
 
   return (
     <div>
