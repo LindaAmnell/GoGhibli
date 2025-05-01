@@ -1,15 +1,24 @@
-Uppgift
-Din uppgift är att bygga en frontend-app där man kan läsa om filmer av Studio Ghibli. Följande features ska finnas:
+Go Ghibli
+TypeScript + React
 
-1.Filmdata hämtas från Studio Ghibli API✔️
-2.TypeScript ska användas till:✔️
-a.samtliga variabler, inklusive state✔️
-b.samtliga funktioner: parametrar och returtyp✔️
-c.type alias som beskriver datan från API:et 3. Datan valideras med Joi (gås igenom på onsdag)✔️
-4.Användare ska kunna söka efter filmer baserat på deras engelska titel. (Sökning sker i den hämtade datan, inte genom nya API-anrop)✔️
-5.Det ska vara snyggt!✔️
-6.Filmerna ska sorteras efter premiärår, med den senaste först✔️
-7.För varje film ska visas: engelsk titel, beskrivning, minst en trevlig bild, regis7sör.✔️
-8.Användare ska kunna "favoritmarkera" filmer. Markerade filmer kan visas i en separat vy som kallas "favoriter".✔️
-9.Användare kan ändra ordningen på filmer i favorit-vyn.
-10.Användare kan toggla om man har sett en film i favorit-vyn eller inte.✔️
+In this project, the goal was to integrate TypeScript into a larger React application while practicing fundamental concepts like AJAX, data validation, and styling. The app was built to display films from Studio Ghibli using data fetched from their API.
+
+Key Features:
+
+✔ Film data fetched from Studio Ghibli API
+
+✔ TypeScript used throughout: for variables, state, and function types, including type aliases for API data
+
+✔ Data Validation with Joi to ensure proper structure and values
+
+✔ Search functionality to find films by their English titles from the fetched data
+
+✔ Sort by release year: films are displayed with the most recent first
+
+✔ Display film details: English title, description, at least one image, and the director
+
+✔ Favorites: Users can mark films as favorites, and view them in a separate favorites view
+
+✔ Reorder favorites: Users can change the order of films in the favorites view
+
+✔ Toggle film status: Users can mark whether they’ve seen a film or not in the favorites view
