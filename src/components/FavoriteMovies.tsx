@@ -22,7 +22,7 @@ const FavoriteMovies = () => {
         <NavLink className="favorite-text" to="/">
           Back ⏪
         </NavLink>
-        <h1>Your Favorite Movies</h1>
+        <h1 className="favo">Your Favorite Movies</h1>
       </div>
       {favoriteMovies.length === 0 ? (
         <p>Inga favoriter hittades.</p>

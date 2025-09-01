@@ -25,13 +25,14 @@
     margin: 1em;
     padding: 0.5em;
     border-radius: 0.4em;
+    width: 13em;
   }
 }
 
 .list-movie {
   display: flex;
   flex-direction: column;
-  width: 20em;
+  max-width: 20em;
   margin: 1em;
   align-items: center;
   background-color: black;
@@ -89,4 +90,10 @@
 }
 .director {
   width: 11em;
+}
+
+@media (max-width: 500px) {
+  .list-movie {
+    margin: 0;
+  }
 }

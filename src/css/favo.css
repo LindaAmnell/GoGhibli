@@ -29,3 +29,9 @@
   top: 6%;
   left: 5%;
 }
+
+@media (max-width: 500px) {
+  .favo {
+    font-size: 1.5em;
+  }
+}

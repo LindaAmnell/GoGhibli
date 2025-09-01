@@ -3,6 +3,7 @@ body {
   place-items: center;
   background-color: rgb(24, 23, 23);
   color: rgb(180, 180, 105);
+  margin: 0;
 }
 
 header {
@@ -11,11 +12,11 @@ header {
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 3dvb;
-
-  h1 {
-    margin: 0.4em;
-  }
+  font-size: 3;
+}
+.goChibliheader {
+  margin: 0.4em;
+  font-size: 3em;
 }
 .favorite-text {
   text-decoration: none;
@@ -25,4 +26,11 @@ header {
 .favorite-text-start {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 500px) {
+  .goChibliheader {
+    margin: 0;
+    font-size: 1.5em;
+  }
 }
