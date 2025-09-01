@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>Go Ghibli Movies</h1>
+        <h1 className="goChibliheader">Go Ghibli Movies</h1>
         <NavLink className="favorite-text-start" to="/Favorite">
           Favorite Movie 💛
         </NavLink>
